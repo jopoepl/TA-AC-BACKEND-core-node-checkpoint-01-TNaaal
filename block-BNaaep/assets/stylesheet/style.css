@@ -1,0 +1,192 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+i {
+    font-family:none;
+}
+
+html {
+    font-size: 10px;
+}
+
+:root {
+    --accent: #ea5333;
+    --background: #fef9f7;
+    --overlay: rgba(255, 255, 255, 0.9);
+    --font-color: #867a77;
+    --text-white: whitesmoke; 
+
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.border {
+   border: 1px solid yellow;
+}
+
+#active {
+    color: var(--accent);
+}    
+
+.activebg {
+    background-color: var(--accent);
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+    font-weight: 600;
+}
+
+a:hover {
+    color: var(--accent);
+}
+
+p{
+    line-height: 1.5;
+}
+
+/* FLEX */
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.justify-btwn {
+    justify-content: space-between;
+
+}
+.justify-start {
+    justify-content: flex-start;
+
+}
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.item-start {
+    align-items: flex-start;
+}
+
+.item-end {
+    align-items: flex-end;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+
+
+/* Container */
+
+.container {
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 4rem;
+}
+
+.margin {
+    margin: 2rem 0;
+}
+
+.padding {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* Columns */
+
+.flex-15 {
+    flex: 0 1 15%;
+}
+
+.flex-20 {
+    flex: 0 1 20%
+}
+
+.flex-24 {
+    flex: 0 1 24%;
+}
+
+.flex-25 {
+    flex: 0 1 25%;
+}
+
+
+.flex-30 {
+    flex: 0 1 30%;
+}
+
+.flex-32 {
+    flex: 0 1 32%;
+}
+
+.flex-40 {
+    flex: 0 1 40%;
+}
+
+
+.flex-48 {
+    flex: 0 1 48%;
+}
+.flex-50 {
+    flex: 0 1 50%;
+}
+
+.flex-60 {
+    flex: 0 1 60%;
+}
+
+.flex-75 {
+    flex: 0 1 75%
+}
+
+.flex-85 {
+    flex: 0 1 85%;
+}
+
+.grow {
+    flex: 1 1 auto;
+}
+
+/* Full Width */
+
+.full-width {
+    width: 100%;
+}
+
+/* Centered Elements */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 1rem 2.2rem;
+    cursor: pointer;
+    background-color: var(--accent);
+    color: white;
+
+}
